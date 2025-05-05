@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ertuğrul Toker Sayfam</title>
+    <meta name="keywords" content="JavaScript"/>
+    <meta name="description" content="Ertuğrul Toker Sayfam">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
+    <!--TABLET - MOBİLE-->
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css">
+
+</head> 
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1>Ertuğrul Toker</h1>
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+            </ul>
+             </nav>
+            </div>
+        </header>
+        <section id="home">
+            <img 
+            src="/ımages/ertkr.jpeg" 
+            alt="ertugrul toker"
+            />
+           
+            <div class="name text-center">
+            <h2>Ertuğrul Toker</h2>
+            <p>Front-End Developer</p>
+            </div>
+            <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+            
+        </section>
+
+        <section id="training" class="bg-dark-blue">
+            <h3 class="text-center heading-medium">Eğitimler</h3>
+           
+            <div class="items">
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Sınıf içi Eğitimler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, laborum!</p>
+                </article>
+            
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Online Eğitimler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, laborum!</p>
+                </article>
+            
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Konferanslar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, laborum!</p>
+                </article>
+            </div>
+
+        </section>
+        <section id="courses">
+            <h3 class="text-center heading-medium">Kurslar</h3>
+            <div class="container">
+            <div class="courses">
+
+            <!--course 1-->
+            <div class="course">
+                <div class="course-image">
+                    <img src="./ımages/html logo.png" alt="html"/>
+                    <span>%50 İndirim</span>
+                </div>
+                <div class="course-info">
+                    <div class="tittle">
+                        +10 Saat HTML | Sıfırdan İleri Seviye Programlama (2025)
+                    </div>
+                    <div class="instructor">
+                        Ertuğrul Toker
+                    </div>
+                    <div class="rating">4.2 | (1265 Oylama)</div>
+                </div>
+              </div>
+
+              <!--course 2-->
+             <div class="course">
+                <div class="course-image">
+                    <img src="./ımages/css logo.png" alt="css"/>
+                    <span>%50 İndirim</span>
+                </div>
+                <div class="course-info">
+                    <div class="tittle">
+                        +10 Saat CSS | Sıfırdan İleri Seviye Programlama (2025)
+                    </div>
+                    <div class="instructor">
+                        Ertuğrul Toker
+                    </div>
+                    <div class="rating">
+                        4.5 | (1689 Oylama)
+                    </div>
+                </div>
+             </div>
+
+             <!--course 3-->
+             <div class="course">
+                <div class="course-image">
+                    <img src="./ımages/Javascript-logo.png" alt="javascript"/>
+                    <span>%50 İndirim</span>
+                </div>
+                <div class="course-info">
+                    <div class="tittle">
+                        +10 Saat JavaScript | Sıfırdan İleri Seviye Programlama (2025)
+                    </div>
+                    <div class="instructor">
+                        Ertuğrul Toker
+                    </div>
+                    <div class="rating">
+                        4.8 | (897 Oylama)
+                    </div>
+                </div>
+             </div>
+
+           </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="bg-dark-blue">
+            <div class="contact-form">
+                <form>
+                    <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                    <div class="form-group">
+                        <label for="name">İsim</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesaj</label>
+                        <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Gönder</button>
+                </form>
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+
+        </footer>
+
+    
+    
+</body>
+</html>
